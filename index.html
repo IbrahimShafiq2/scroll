@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="imgs">
+            <img src="images/img-1.png" data-img id="img-1" class="top-section-img show" />
+            <img src="images/img-2.png" data-img id="img-2" />
+            <img src="images/img-3.png" data-img id="img-3" />
+        </div>
+        <header>
+            <div>
+                <p class="logical">Logical</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-spider"></i>
+            </div>
+        </header>
+        <section class="top-section full-screen-section">
+            <div class="left">
+                <h1>Build Better Backends</h1>
+                <p>
+                    The only platform that gives AI the ability to autonomously build web
+                    services.
+                </p>
+            </div>
+            <div class="right">
+                <div class="ui ui1">
+                    <img src="./images/deploy.png" alt="">
+                </div>
+                <div class="ui ui2">
+                    <img src="./images/env-card.png" alt="">
+                </div>
+                <div class="ui ui3">
+                    <img src="./images/type.png" alt="">
+                </div>
+                <div class="ui ui4">
+                    <img src="./images/modal.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="full-screen-section first-main-section">
+            <h1>Completely Visual</h1>
+            <p>Never touch the command line, from provision to production.</p>
+            <div data-img-to-show="#img-1"></div>
+        </section>
+        <section class="full-screen-section">
+            <h1>Full Stack</h1>
+            <p>
+                Never manage infrastructure again. One click gets you: a database, APIs,
+                deployments, hosting, etc.
+            </p>
+            <div data-img-to-show="#img-2"></div>
+        </section>
+        <section class="full-screen-section">
+            <h1>Launch Faster</h1>
+            <p>Logical can get systems to market in minutes instead of weeks.</p>
+            <div data-img-to-show="#img-3"></div>
+        </section>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
